@@ -1,0 +1,112 @@
+body { 
+    color: #181818;
+    font-family: trebuchet MS,Lucida Sans Unicode,Lucida Sans,Sans-Serif;
+    font-size: 0.7em;
+    line-height: 0.7em;
+}
+
+input, select {
+  color:#181818;
+  font-size: 1em;
+  background-color:#F9F9F9;
+  border: 1px solid;
+  border-color: #CCCCCC;
+}
+input:disabled {
+  color:#181818;
+  font-size: 1em;
+  background-color:gray;
+  border: 1px solid;
+  border-color: #CCCCCC;
+}
+
+
+td, th {
+    font-size: 0.745em;
+}
+
+div#title_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#loggin_wait_wrapper {
+    background-color: #EBEBEB;
+    border: 1px solid #CCCCCC;
+    float: right;
+}
+div#login_wrapper {
+    background-color: #EBEBEB;
+    border: 1px solid #CCCCCC;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    float: right;
+}
+div#logged_wrapper {
+    background-color: #EBEBEB;
+    border: 1px solid #CCCCCC;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    float: right;
+}
+
+div#messages_wrapper {
+    background-color: #EBEBEB;
+    border: 1px solid #CCCCCC;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+div#errors_wrapper {
+    background-color: #FF8080;
+    border: 1px solid #CCCCCC;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+div#snippletlist_wrapper {
+    background-color: #EBEBEB;
+    border: 1px solid #CCCCCC;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+div#snippletlist_content td {
+    border: 1px solid black;
+}
+div#snippletlist_content tr.clickable:hover{ background-color: #ccc; } 
+div#snippletlist_content th {
+    border: 1px solid black;
+}
+div#snippletlist_content table {
+    border-collapse:collapse;
+    width: 100%;
+}
+div#snippletdetails_wrapper {
+    background-color: #EBEBEB;
+    border: 1px solid #CCCCCC;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+div#snipplet_content {
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+div#snippletedit_wrapper {
+    background-color: #EBEBEB;
+    border: 1px solid #CCCCCC;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
